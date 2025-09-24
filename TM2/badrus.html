@@ -26,21 +26,36 @@
     <a
         href="https://docs.google.com/forms/d/e/1FAIpQLSfhzlVHUDQ3V_L5l3NaedHOOvM_5R_e2ZDlWiOhIr5qL9_rPQ/viewform?usp=dialog">Link
         Pendaftaran PMII Rayon Saintek</a>
-        PMII RAYON SAINTEK
-        <br>
-        KOMISARIAT UMAR TAMIM UNIPDU JOMBANG
-        <ol>
-            <li>Nilai Dasar Pergerakan</li>
-            <li>Ahlussunnah Wal Jamaah</li>
-            <li>Sejarah bangsa Indonesia</li>
-            <li>Analisis Sosial</li>
-            <li>Paradigma PMII</li>
-        </ol>
+    PMII RAYON SAINTEK
+    <br>
+    KOMISARIAT UMAR TAMIM UNIPDU JOMBANG
+    <ol>
+        <li>Nilai Dasar Pergerakan</li>
+        <li>Ahlussunnah Wal Jamaah</li>
+        <li>Sejarah bangsa Indonesia</li>
+        <li>Analisis Sosial</li>
+        <li>Paradigma PMII</li>
+    </ol>
 
-        <h3><em>Struktur Kepengurusan di PMII</em></h3>
-        <table border="1"> 
+    <h3><em>Struktur Kepengurusan di PMII</em></h3>
+    <table border="1">
+         <tr>
+                <td>Baris 1, Kolom 1</td>
+                <td>Baris 1, Kolom 2</td>
+                <td>Baris 1, Kolom 3</td>
+            </tr>
+            <tr>
+                <td>Baris 2, Kolom 1</td>
+                <td>Baris 2, Kolom 2</td>
+                <td>Baris 2, Kolom 3</td>
+            </tr>
+            <tr>
+                <td>Baris 3, Kolom 1</td>
+                <td>Baris 3, Kolom 2</td>
+                <td>Baris 3, Kolom 3</td>
+            </tr>
 
-        </table>
+    </table>
 
     <h3><em>Sejarah Tentang PMII</em></h3>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/AQXKIGKvlgQ?si=lYbvJhbUheMN0c32"
@@ -52,6 +67,41 @@
         title="YouTube video player" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <form action="formulir.html" method="get">
+        Nama: <input type="text" name="nama" value="Nama Kamu" />
+        <br />
+
+        Password: <input type="password" name="password" value="password" />
+        <br />
+
+        Jenis Kelamin :
+        <input type="radio" name="jenis_kelamin" value="laki-laki" checked /> Laki - Laki
+        <input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan
+        <br />
+
+        Hobi:
+        <input type="checkbox" name="hobi_membaca" /> Membaca
+        <input type="checkbox" name="hobi_sepak bola" checked /> Sepak Bola
+        <input type="checkbox" name="hobi_badminton" /> Badminton
+        <br />
+
+        Asal Kota:
+        <select name="asal_kota">
+            <option value="Kota Surabaya">Surabaya</option>
+            <option value="Kota Mojokerto">Mojokerto</option>
+            <option value="Kota Jombang" selected>Jombang</option>
+        </select>
+        <br />
+
+        Komentar Anda:
+        <br>
+        <textarea name="komentar" rows="5" cols="20">
+Silahkan katakan isi hati anda
+    </textarea>
+        <br />
+
+        <input type="submit" value="Mulai" />
+    </form>
 
 
 </body>
